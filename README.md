@@ -9,7 +9,7 @@ module "azure_vnets" {
   source = "alkiranet/azure-builder/alkira"
   
   # path to config
-  config_files = "./config/azure_vnets.yaml"
+  config_file = "./config/azure_vnets.yaml"
   
 }
 ```
